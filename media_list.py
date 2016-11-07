@@ -1,5 +1,6 @@
 import media
 import fresh_tomatoes
+#tv_shows are currently not available, implemented for later date
 #instantiate tv_show objects
 """Object traits (in-order): duration, image, storyline, title,
                              episode, season"""
@@ -55,6 +56,38 @@ man_who_knew_infinity = media.Movie(
     "The Man Who Knew Infinity",
     "https://www.youtube.com/watch?v=oXGm9Vlfx4w")
 
+zootopia = media.Movie(
+    150,
+    "https://resizing.flixster.com/5Fvk0wdYGnVfTRwTC0uvSCjWes0=/206x305/v1.bTsxMTMxODA2ODtwOzE3MjMwOzEyMDA7NDk5Ozc0MQ",
+    "In a city of anthropomorphic animals, a rookie bunny cop \
+     and a cynical con artist fox must work together to       \
+     uncover a conspiracy.",
+    "Zootopia",
+    "https://www.youtube.com/watch?v=jWM0ct-OLsM")
+
+big_hero_6 = media.Movie (
+    160,
+    "https://filmsoundtrackcenter.files.wordpress.com/2014/11/bighero6.jpg",
+    "A boy and a robot save the world.",
+    "Big Hero 6",
+    "https://www.youtube.com/watch?v=z3biFxZIJOQ")
+
+catch_me = media.Movie(
+    135,
+    "https://upload.wikimedia.org/wikipedia/en/4/4d/Catch_Me_If_You_Can_2002_movie.jpg",
+    "The true story of a real fake",
+    "Catch Me If You Can",
+    "https://www.youtube.com/watch?v=71rDQ7z4eFg")
+
+captain_america = media.Movie(
+    132,
+    "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+    "The First Avenger",
+    "Captain America",
+    "https://www.youtube.com/watch?v=JerVrbLldXw")
+
 #create media list and html page
-movies = [imitation_game, shutter_island, man_who_knew_infinity]
+movies = [imitation_game, shutter_island, man_who_knew_infinity, zootopia,
+          catch_me, big_hero_6, captain_america]
+
 fresh_tomatoes.open_movies_page(movies)
