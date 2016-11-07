@@ -4,9 +4,9 @@ Local Database of Movies and TV Shows, unlike IMDB which is hosted on the intern
 
 Written in Python, HTML and Bootstrap
 
-![sample-image-1](http://i.imgur.com/IRHwidV.png = 250x250)
+![sample-image-1](http://i.imgur.com/IRHwidV.png = 150x150)
 
-![sample-image-2](http://i.imgur.com/n2sXFZP.png = 250x250)
+![sample-image-2](http://i.imgur.com/n2sXFZP.png = 150x150)
 
 ## Getting Started
 
