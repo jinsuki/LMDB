@@ -4,6 +4,8 @@ Local Database of Movies and TV Shows, unlike IMDB which is hosted on the intern
 
 Written in Python, HTML and Bootstrap
 
+
+
 ## Getting Started
 
 Download the files and unzip or clone repo. Compile and run media_list.py and you should be up and running. You can edit your own shows into media_list.py as well!
