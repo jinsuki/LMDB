@@ -4,10 +4,9 @@ Local Database of Movies and TV Shows, unlike IMDB which is hosted on the intern
 
 Written in Python, HTML and Bootstrap
 
-![sample-image-1](https://raw.githubusercontent.com/jinsuki/LMDB/pic2.png))
+![sample-image-1](http://imgur.com/n2sXFZP)
 
-![sample-image-1](https://raw.githubusercontent.com/jinsuki/LMDB/pic1.png))
-
+![sample-image-1](http://imgur.com/a/NEy4H)
 
 ## Getting Started
 
