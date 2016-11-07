@@ -23,6 +23,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 sdfssfsfss
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* fresh_tomatoes.py provided by Udacity
