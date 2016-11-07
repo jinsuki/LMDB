@@ -1,4 +1,4 @@
-# IMDB
+# LMDB
 
 Local Database of Movies and TV Shows, unlike IMDB which is hosted on the internet.
 
