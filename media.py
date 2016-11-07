@@ -1,21 +1,21 @@
+#parent class
 class Video():
     def __init__(self, duration, image, storyline,
-                    title, link):
+                    title):
         self.duration = duration
         self.image = image
         self.storyline = storyline
         self.title = title
-        self.link = link
-        def view_trailer():
 
+#movie subclass
 class Movie(Video):
-    def __init__(self, duration, image, storyline,
-                    title, link):
-        Video.__init__(self, duration, image, storyline, title, link)
-
+    def __init__(self, duration, image, storyline,title, link):
+        Video.__init__(self, duration, image, storyline, title)
+        self.link = link
+#tvshow subclass
 class TVShow(Video):
     def __init__(self, duration, image, storyline,
-                    title, link, episode, season):
-        Video.__init__(self, duration, image, storyline, title, link)
+                    title, episode, season):
+        Video.__init__(self, duration, image, storyline, title)
         self.episode = episode
         self.season = season
